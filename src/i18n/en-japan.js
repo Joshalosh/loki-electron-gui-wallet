@@ -8,7 +8,7 @@ export default {
         change: "変更",
         close: "閉じる",
         contacts: "連絡先",
-        copyAddress: "COPY ADDRESS",
+        copyAddress: "アドレスをコピー",
         createWallet: "ウォレットを作成",
         delete: "削除する",
         edit: "編集",
@@ -18,7 +18,7 @@ export default {
         next: "次",
         openWallet: "ウォレットを開く",
         receive: "受け取る",
-        registerServiceNode: "REGISTER SERVICE NODE",
+        registerServiceNode: "サービス・ノードを登録",
         rescan: "RESCAN",
         restoreWallet: "ウォレットを復元",
         save: "保存",
@@ -27,70 +27,70 @@ export default {
         selectWalletFile: "SELECT WALLET FILE",
         send: "送る",
         sendCoins: "SEND COINS",
-        serviceNode: "SERVICE NODE",
+        serviceNode: "サービス・ノード",
         settings: "設定",
         showQRCode: "QRコードを表示",
-        showTxDetails: "SHOW TX DETAILS",
+        showTxDetails: "取引の詳細を見る",
         stake: "STAKE",
-        unlockServiceNode: "UNLOCK SERVICE NODE",
-        viewOnExplorer: "VIEW ON EXPLORER"
+        unlockServiceNode: "サービス・ノードのロック解除",
+        viewOnExplorer: "エクスプローラで見る"
     },
     dialog: {
         // Generic buttons
         buttons: {
             ok: "OK",
-            cancel: "CANCEL",
-            open: "OPEN"
+            cancel: "キャンセル",
+            open: "開く"
         },
 
         // Dialogs
         banPeer: {
-            title: "Ban peer",
-            peerDetailsTitle: "Peer details",
+            title: "ピア禁止",
+            peerDetailsTitle: "ピア詳細",
             message: "Enter length to ban peer in seconds.\nDefault 3600 = 1 hour.",
-            ok: "Ban peer"
+            ok: "ピア禁止"
         },
         copyAddress: {
-            title: "Copy address",
+            title: "アドレスをコピー",
             message: "There is a payment id associated with this address.\nBe sure to copy the payment id separately."
         },
         copyPrivateKeys: {
             // Copy {seedWords/viewKey/spendKey}
             title: "Copy {type}",
             message: "Be careful who you send your private keys to as they control your funds.",
-            seedWords: "Seed Words",
-            viewKey: "View Key",
-            spendKey: "Spend Key"
+            seedWords: "シード・ワードズ",
+            viewKey: "ビューキー",
+            spendKey: "スペンドキー"
         },
         deleteWallet: {
-            title: "Delete wallet",
+            title: "ウォレットを削除",
             message: "Are you absolutely sure you want to delete your wallet?\nMake sure you have your private keys backed up.\nTHIS PROCESS IS NOT REVERSIBLE!",
-            ok: "DELETE"
+            ok: "削除する"
         },
         exit: {
-            title: "Exit",
-            message: "Are you sure you want to exit?",
-            ok: "EXIT"
+            title: "終了する",
+            message: "終了してもよろしいですか",
+            ok: "終了する"
         },
         keyImages: {
             title: "{type} key images",
             message: "Do you want to {type} key images?",
-            export: "Export",
-            import: "Import"
+            export: "エクスポート",
+            import: "インポート"
         },
         noPassword: {
             title: "No password set",
             message: "Are you sure you want to create a wallet with no password?",
-            ok: "YES"
+            ok: "はい"
         },
         password: {
-            title: "Password",
+            title: "パスワード",
             message: "Enter wallet password to continue."
         },
         registerServiceNode: {
-            title: "Register service node",
+            title: "サービス・ノードを登録",
             message: "Do you want to register the service node?",
-            ok: "REGISTER"
+            ok: "登録"
         },
         rescan: {
             title: "Rescan wallet",
@@ -98,51 +98,51 @@ export default {
             ok: "RESCAN"
         },
         restart: {
-            title: "Restart",
+            title: "再起動",
             message: "Changes require restart. Would you like to restart now?",
-            ok: "RESTART"
+            ok: "再起動"
         },
         showPrivateKeys: {
-            title: "Show private keys",
+            title: "プライベートキーを表示",
             message: "Do you want to view your private keys?",
-            ok: "SHOW"
+            ok: "表示"
         },
         stake: {
-            title: "Stake",
+            title: "ステーク",
             message: "Do you want to stake?",
-            ok: "STAKE"
+            ok: "ステーク"
         },
         switchWallet: {
-            title: "Switch wallet",
+            title: "ウォレットの切り替え",
             closeMessage: "Are you sure you want to close the current wallet?",
             restartMessage: "The wallet RPC is currently syncing. \nIf you wish to switch wallets then you must restart the application. \nYou will lose your syncing progress and have to rescan the blockchain again."
         },
         transactionDetails: {
-            title: "Transaction details",
-            ok: "CLOSE"
+            title: "取引の詳細",
+            ok: "閉じる"
         },
         transfer: {
-            title: "Transfer",
+            title: "移動",
             message: "Do you want to send the transaction?",
-            ok: "SEND"
+            ok: "送る"
         },
         unlockConfirm: {
-            title: "Confirm unlock",
-            ok: "UNLOCK"
+            title: "ロック解除を確認",
+            ok: "ロック解除"
         },
         unlockServiceNode: {
-            title: "Unlock service node",
-            confirmTitle: "Confirm unlock",
+            title: "サービス・ノードのロック解除",
+            confirmTitle: "ロック解除を確認",
             message: "Do you want to unlock the service node?",
-            ok: "UNLOCK"
+            ok: "ロック解除"
         }
     },
     fieldLabels: {
         // Field labels are also all uppercased
-        address: "ADDRESS",
-        amount: "AMOUNT",
+        address: "アドレス",
+        amount: "金額",
         awardRecepientAddress: "AWARD RECEPIENT ADDRESS",
-        confirmPassword: "CONFIRM PASSWORD",
+        confirmPassword: "パスワードを確認",
         daemonLogLevel: "DAEMON LOG LEVEL",
         daemonP2pPort: "DAEMON P2P PORT",
         daemonZMQPort: "DAEMON ZMQ PORT",
@@ -160,10 +160,10 @@ export default {
         localDaemonPort: "LOCAL DAEMON PORT",
         maxIncomingPeers: "MAX INCOMING PEERS",
         maxOutgoingPeers: "MAX OUTGOING PEERS",
-        mnemonicSeed: "MNEMONIC SEED",
-        name: "NAME",
-        newWalletName: "NEW WALLET NAME",
-        notes: "NOTES",
+        mnemonicSeed: "ニーモニックシード",
+        name: "名前",
+        newWalletName: "新しいウォレットの名前",
+        notes: "メモ",
         optional: "OPTIONAL",
         password: "PASSWORD",
         paymentId: "PAYMENT ID",
